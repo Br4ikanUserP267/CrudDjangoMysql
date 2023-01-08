@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block title %} Here you can put a new books {% endblock %}
+{% block content %}
+<div class="card bg-dark">
+    <div class="card-header">
+        Create a new book
+    </div>
+    <div class="card-body bg-dark">
+        <h4 class="card-title">Datos del libro</h4>
+        {% include 'books/form.html'%}
+
+
+    </div>
+    <div class="card-footer text-muted">
+        
+    </div>
+</div>
+
+{% endblock %}
+
